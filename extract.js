@@ -32,8 +32,6 @@ exports.extract = (hnapJSON) => {
             //console.log('locale: ' + JSON.stringify(locale));
             //let identificationInfo = extractIdentificationInfo(hnapJSON);
             identificationInfo: extractIdentificationInfo(hnapJSON),
-            //let citation = extractCitation(hnapJSON);
-            citation: extractCitation(hnapJSON)
         }
     }
 }
