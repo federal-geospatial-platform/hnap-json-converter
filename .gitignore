@@ -1,7 +1,7 @@
 # Development Testing Directories #
 ###################################
 
-JSON/
+**/JSON
 tempXML/
 node_modules/
 hnap.xml

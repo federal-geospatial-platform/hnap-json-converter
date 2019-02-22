@@ -1,11 +1,11 @@
 {
  "name": "hnap-json-converter",
  "version": "1.0.0",
- "engines": "node@10.15.1",
+ "engines": {"node":">=10.15.1"},
  "description": "testing CSW request on maps.canada.ca",
  "main": "retrieve.js",
  "author": "Andrew Henry",
- "license": "ISC", 
+ "license": "ISC",
  "dependencies": {
   "jsonix": "2.4.1",
   "jsonix-schema-compiler": "2.3.9",
