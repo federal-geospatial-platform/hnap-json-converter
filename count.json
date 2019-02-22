@@ -1,0 +1,33 @@
+{
+    "name": {
+        "namespaceURI": "http://www.opengis.net/cat/csw/2.0.2",
+        "localPart": "GetRecordsResponse",
+        "prefix": "csw",
+        "key": "{http://www.opengis.net/cat/csw/2.0.2}GetRecordsResponse",
+        "string": "{http://www.opengis.net/cat/csw/2.0.2}csw:GetRecordsResponse"
+    },
+    "value": {
+        "TYPE_NAME": "CSW_2_0_2.GetRecordsResponseType",
+        "searchStatus": {
+            "TYPE_NAME": "CSW_2_0_2.RequestStatusType",
+            "timestamp": {
+                "year": 2019,
+                "month": 2,
+                "day": 18,
+                "hour": 20,
+                "minute": 35,
+                "second": 58,
+                "fractionalSecond": 0,
+                "timezone": null,
+                "date": "2019-02-18T20:35:58.000Z"
+            }
+        },
+        "searchResults": {
+            "TYPE_NAME": "CSW_2_0_2.SearchResultsType",
+            "numberOfRecordsMatched": 878,
+            "numberOfRecordsReturned": 10,
+            "elementSet": "brief",
+            "nextRecord": 11
+        }
+    }
+}

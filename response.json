@@ -1,0 +1,110 @@
+{
+    "name": {
+        "namespaceURI": "http://www.opengis.net/cat/csw/2.0.2",
+        "localPart": "GetRecordsResponse",
+        "prefix": "csw",
+        "key": "{http://www.opengis.net/cat/csw/2.0.2}GetRecordsResponse",
+        "string": "{http://www.opengis.net/cat/csw/2.0.2}csw:GetRecordsResponse"
+    },
+    "value": {
+        "TYPE_NAME": "CSW_2_0_2.GetRecordsResponseType",
+        "searchStatus": {
+            "TYPE_NAME": "CSW_2_0_2.RequestStatusType",
+            "timestamp": {
+                "year": 2019,
+                "month": 2,
+                "day": 18,
+                "hour": 19,
+                "minute": 45,
+                "second": 49,
+                "fractionalSecond": 0,
+                "timezone": null,
+                "date": "2019-02-18T19:45:49.000Z"
+            }
+        },
+        "searchResults": {
+            "TYPE_NAME": "CSW_2_0_2.SearchResultsType",
+            "numberOfRecordsMatched": 878,
+            "numberOfRecordsReturned": 1,
+            "elementSet": "brief",
+            "nextRecord": 2,
+            "abstractRecord": [
+                {
+                    "name": {
+                        "namespaceURI": "http://www.opengis.net/cat/csw/2.0.2",
+                        "localPart": "BriefRecord",
+                        "prefix": "csw",
+                        "key": "{http://www.opengis.net/cat/csw/2.0.2}BriefRecord",
+                        "string": "{http://www.opengis.net/cat/csw/2.0.2}csw:BriefRecord"
+                    },
+                    "value": {
+                        "TYPE_NAME": "CSW_2_0_2.BriefRecordType",
+                        "identifier": [
+                            {
+                                "name": {
+                                    "namespaceURI": "http://purl.org/dc/elements/1.1/",
+                                    "localPart": "identifier",
+                                    "prefix": "dc",
+                                    "key": "{http://purl.org/dc/elements/1.1/}identifier",
+                                    "string": "{http://purl.org/dc/elements/1.1/}dc:identifier"
+                                },
+                                "value": {
+                                    "TYPE_NAME": "DC_1_1.SimpleLiteral",
+                                    "content": [
+                                        "07668020-91d7-481a-bfbd-8ea07aace7b4"
+                                    ]
+                                }
+                            }
+                        ],
+                        "title": [
+                            {
+                                "name": {
+                                    "namespaceURI": "http://purl.org/dc/elements/1.1/",
+                                    "localPart": "title",
+                                    "prefix": "dc",
+                                    "key": "{http://purl.org/dc/elements/1.1/}title",
+                                    "string": "{http://purl.org/dc/elements/1.1/}dc:title"
+                                },
+                                "value": {
+                                    "TYPE_NAME": "DC_1_1.SimpleLiteral",
+                                    "content": [
+                                        "Short Rotation Woody Crop Site Suitability: Hybrid Poplar"
+                                    ]
+                                }
+                            }
+                        ],
+                        "type": {
+                            "TYPE_NAME": "DC_1_1.SimpleLiteral",
+                            "content": [
+                                "RI_622"
+                            ]
+                        },
+                        "boundingBox": [
+                            {
+                                "name": {
+                                    "namespaceURI": "http://www.opengis.net/ows",
+                                    "localPart": "BoundingBox",
+                                    "prefix": "ows",
+                                    "key": "{http://www.opengis.net/ows}BoundingBox",
+                                    "string": "{http://www.opengis.net/ows}ows:BoundingBox"
+                                },
+                                "value": {
+                                    "TYPE_NAME": "OWS_1_0_0.BoundingBoxType",
+                                    "crs": "http://www.epsg-registry.org::EPSG:3978",
+                                    "lowerCorner": [
+                                        -52.946155,
+                                        41.383412
+                                    ],
+                                    "upperCorner": [
+                                        -135.144763,
+                                        60.828244
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
